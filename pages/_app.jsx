@@ -15,7 +15,7 @@ const App = ({ Component, pageProps: { session, ...pageProps } }) => {
     return (
         <>
             <Head>
-                <title>Dencares Dental Clinic</title>
+                <title>Dencares</title>
                 <meta
                     name="viewport"
                     content="width=device-width, initial-scale=1"
