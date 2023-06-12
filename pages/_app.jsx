@@ -15,18 +15,12 @@ const App = ({ Component, pageProps: { session, ...pageProps } }) => {
     return (
         <>
             <Head>
-                <title>Jevemille Pascual Dental Clinic</title>
+                <title>Dencares Dental Clinic</title>
                 <meta
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
                 <meta name="description" content="" />
-                <link
-                    rel="icon"
-                    type="image/png"
-                    size="96x96"
-                    href="favicon.ico"
-                />
             </Head>
 
             <SessionProvider session={session}>
