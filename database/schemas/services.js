@@ -1,6 +1,6 @@
 import { Schema, model, models } from 'mongoose'
 
-const ServicesSchema = Schema(
+const ServicesSchema = new Schema(
     {
         name: {
             type: String,

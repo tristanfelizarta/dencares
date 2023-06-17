@@ -1,6 +1,6 @@
 import { Schema, model, models } from 'mongoose'
 
-const ScheduleSchema = Schema(
+const ScheduleSchema = new Schema(
     {
         date: {
             type: String,

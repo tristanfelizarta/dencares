@@ -1,6 +1,6 @@
 import { Schema, model, models } from 'mongoose'
 
-const SystemSchema = Schema(
+const SystemSchema = new Schema(
     {
         status: {
             type: Boolean,
